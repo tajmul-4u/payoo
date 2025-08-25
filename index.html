@@ -1,40 +1,59 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <!-- styles link -->
-     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/style.css" />
 
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- DaisyUI CDN -->
-     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
-
-</head>
-<body class="bg-[#f4f5f7] h-[100vh] flex flex-col justify-center items-center">
-    <div class="h-[130px] w-[300px] bg-[url('./assets/bg.png')] bg-cover flex justify-center items-center">
-        <img src="assets/Group.png" alt="">
-
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+  <body
+    class="bg-[#f4f5f7] h-[100vh] flex flex-col justify-center items-center"
+  >
+    <div
+      class="h-[130px] w-[300px] bg-[url('./assets/bg.png')] bg-cover flex justify-center items-center"
+    >
+      <img src="assets/Group.png" alt="" />
     </div>
     <form class="w-[350px] bg-white rounded-2xl p-8">
-        <div class="">
-            <label class="font-semibold" for="">Mobile Number</label>
-            <br>
-              <input type="text" id="mobile-Number" class="input bg-[#f4f5f7] rounded-3xl mt-3" placeholder="Enter Your Number" />
-        </div>
-        <div class="mt-2">
-            <label class="font-semibold" for="">4 Digit Pin</label>
-            <br>
-              <input type="text" id="pin-Number" class="input bg-[#f4f5f7] rounded-3xl mt-3" placeholder="Enter 4 Digit Pin" />
-        </div>
-        <button type="button" class="btn text-white bg-[#0874f2] mt-5 w-full rounded-3xl " id="loginButton">Login</button>
-        <!-- <button class="bg-[#0874f2] w-full rounded-3xl p-2 mt-5">Login</button> -->
-
+      <div class="">
+        <label class="font-semibold" for="">Mobile Number</label>
+        <br />
+        <input
+          type="text"
+          id="mobile-Number"
+          class="input bg-[#f4f5f7] rounded-3xl mt-3"
+          placeholder="Enter Your Number"
+        />
+      </div>
+      <div class="mt-2">
+        <label class="font-semibold" for="">4 Digit Pin</label>
+        <br />
+        <input
+          type="text"
+          id="pin-Number"
+          class="input bg-[#f4f5f7] rounded-3xl mt-3"
+          placeholder="Enter 4 Digit Pin"
+        />
+      </div>
+      <button
+        type="button"
+        class="btn text-white bg-[#0874f2] mt-5 w-full rounded-3xl"
+        id="loginButton"
+      >
+        Login
+      </button>
     </form>
     <!-- scripts js -->
-     <script src="scripts.js"></script>
-</body>
+    <script src="scripts.js"></script>
+  </body>
 </html>
-
